@@ -1,4 +1,4 @@
-﻿@font-face {
+@font-face {
   font-family: 'icomoon';
   src: url("../fonts/icomoon/icomoon.eot?srf3rx");
   src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
@@ -93,7 +93,8 @@ h1, h2, h3, h4, h5, h6, figure {
     padding: 20px 0;
   }
 }
-.fh5co-nav #fh5co-logo {
+.fh5co-nav img {
+height: 50px;
   font-size: 20px;
   margin: 0;
   padding: 0;
@@ -176,7 +177,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .fh5co-nav ul {
   padding: 0;
-  margin: 0;
+  margin: 10px;
 }
 .fh5co-nav ul li {
   padding: 0;
@@ -1429,10 +1430,10 @@ margin-top: 50px;
 }
 .fh5co-nav-toggle.fh5co-nav-white > i {
   color: #fff;
-  background: #000;
+  background: white;
 }
 .fh5co-nav-toggle.fh5co-nav-white > i::before, .fh5co-nav-toggle.fh5co-nav-white > i::after {
-  background: #000;
+  background: white;
 }
 
 .fh5co-nav-toggle i::before {
